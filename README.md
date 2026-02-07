@@ -10,9 +10,9 @@ A collection of end-to-end sports analytics projects leveraging modern deep lear
 
 | Sport | Focus | Key Technologies | Status | Performance Metrics |
 |-------|-------|------------------|--------|---------------------|
-| **[Volleyball](#volleyball-ai)** | Ball tracking + Team analytics | ONNX seq-9, YOLOv11-Pose, ByteTrack, SigLIP | ✅ Production | 100 FPS ball tracking, 87.4% F1 |
+| **[Volleyball](#volleyball-ai)** | Ball tracking + Team analytics | ONNX seq-9, YOLOv11-Pose, ByteTrack, SigLIP | 🚧 In Progress | Currently - 100 FPS ball tracking, 87.4% F1 |
 | **[Football](#football-ai)** | Player detection + Match stats | YOLOv11, Supervision, Roboflow | ✅ Complete | Multi-class detection (player/GK/ref/ball) |
-| **[Basketball](#basketball-ai)** | Player tracking + Shot analysis | RT-DETR, DeepSORT, Pose estimation | 🚧 In Progress | TBD |
+| **[Basketball](#basketball-ai)** | Player tracking + Shot analysis | RT-DETR, DeepSORT, Pose estimation | 📋 Planned | TBD |
 
 **Legend:**  
 ✅ Production-ready | 🚧 Active Development | 📋 Planned
@@ -225,7 +225,7 @@ python src/inference.py --video_path data/sample_match.mp4
 ## 📚 Documentation
 
 ### Project-Specific Docs
-- **[Volleyball Technical Architecture](./volleyball-ai/HYBRID_ARCHITECTURE.md)** - In-depth system design and algorithms
+- **[Volleyball Technical Architecture](./volleyball-ai/HYBRID_ARCHITECTURE.md)** - In-depth system design and algorithms *(Coming Soon)*
 - **[Football Annotation Guide](./football-ai/ANNOTATION.md)** - Dataset preparation workflow
 - **[Basketball Pose Schema](./basketball-ai/POSE_SCHEMA.md)** - Keypoint definitions *(Coming Soon)*
 
@@ -299,7 +299,7 @@ Open an issue with:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see individual project directories for dataset-specific licenses.
+This project is licensed under the Apache License - see individual project directories for dataset-specific licenses.
 
 **Dataset Attributions:**
 - Volleyball models trained on custom annotated data
@@ -311,7 +311,7 @@ This project is licensed under the MIT License - see individual project director
 ## 📧 Contact
 
 **Aaryan Kurade**  
-🔗 [LinkedIn](https://linkedin.com/in/aaryan-kurade) | [GitHub](https://github.com/Aaryan2304) | [Portfolio](https://aaryankurade.vercel.app)  
+🔗 [LinkedIn](https://linkedin.com/in/aaryan-kurade) | [GitHub](https://github.com/Aaryan2304) | [Portfolio](https://aaryan2304.github.io/)  
 📧 aaryankurade27@gmail.com
 
 ---
